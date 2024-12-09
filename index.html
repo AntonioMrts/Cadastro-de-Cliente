@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Cadastro de Cliente</title>
+  </head>
+  <body>
+    <form id="formCliente" class="fade-in">
+      <h2>Cadastro de Cliente</h2>
+      <label for="name"></label>
+      <input type="text" id="name" placeholder="Nome" />
+      <label for="email"></label>
+      <input type="email" id="email" placeholder="Email" />
+      <label for="telefone"></label>
+      <input type="tel" id="telefone" placeholder="Telefone" />
+      <label for="obs"></label>
+      <textarea id="obs" placeholder="Observação"></textarea>
+      <button id="btnEnviar" type="submit">Enviar</button>
+    </form>
+
+    <table id="tabelaCliente" class="hidden">
+      <caption>
+        Dados do cliente
+      </caption>
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Email</th>
+          <th>Telefone</th>
+          <th>Observação</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td id="nomeCliente"></td>
+          <td id="emailCliente"></td>
+          <td id="telefoneCliente"></td>
+          <td id="obsCliente"></td>
+        </tr>
+      </tbody>
+    </table>
+    <button id="btnVoltar" class="hidden" type="submit">Voltar</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
