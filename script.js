@@ -26,7 +26,7 @@ btnEnviar.addEventListener("click", (event) => {
   const telefone = document.getElementById("telefone").value;
   const obs = document.getElementById("obs").value;
 
-  if (nome && email && telefone && obs) {
+  if (nome && email && telefone) {
     document.getElementById("nomeCliente").innerText = nome;
     document.getElementById("emailCliente").innerText = email;
     document.getElementById("telefoneCliente").innerText = telefone;
