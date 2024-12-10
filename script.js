@@ -35,7 +35,7 @@ btnEnviar.addEventListener("click", (event) => {
     toggleVisibility(form, tabela);
     btnVoltar.classList.remove("hidden");
   } else {
-    alert("Por favor, preecha todos os campos obrigatórios.");
+    alert("Por favor, preencha todos os campos obrigatórios.");
   }
 });
 
